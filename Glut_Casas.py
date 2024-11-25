@@ -17,7 +17,7 @@ def draw_cube():
     """Dibuja el cubo (base de la casa)"""
     glBegin(GL_QUADS)
     glColor3f(0.8, 0.5, 0.2)  # Marrón para todas las caras
-
+    
     # Frente
     glVertex3f(-1, 0, 1)
     glVertex3f(1, 0, 1)
@@ -54,7 +54,22 @@ def draw_cube():
     glVertex3f(-1, 0, -1)
     glVertex3f(1, 0, -1)
     glVertex3f(1, 0, 1)
-    glVertex3f(-1, 0, 1)
+    glVertex3f(-1, 0, 1)   
+    
+    # VentanaFrente
+    glColor3f(.5, 1, 1)
+    glVertex3f(-.45, .30, 1.1)
+    glVertex3f(.45, .30, 1.1)
+    glVertex3f(.45, .70, 1.1)
+    glVertex3f(-.45, .70, 1.1)
+    
+    # VentanaDerecha
+    glColor3f(.5, 1, 1)
+    glVertex3f(1.01, .30, -.45)
+    glVertex3f(1.01, .30, .45)
+    glVertex3f(1.01, .70, .45)
+    glVertex3f(1.01, .70, -.45)
+    
     glEnd()
 
 def draw_roof():

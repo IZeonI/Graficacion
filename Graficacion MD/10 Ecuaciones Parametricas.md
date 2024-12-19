@@ -48,7 +48,7 @@ for i in range(0,x,5):
         if 0 <= new_x < x and 0 <= new_y < y:
             cv.circle(img, (new_y, new_x), 1, (0, 0, 255), -1)
 ~~~
-![Ecuacion1](ecuacion1.png)
+![Ecuacion1](Imagenes/ecuacion1.png)
 
 ## Ecuación 2: Circulo
 ~~~

@@ -62,3 +62,5 @@ cv.waitKey(0)
 
 cv.destroyAllWindows()
 ~~~
+![5operadores1](5operadores1.png)
+![5operadores2](5operadores2.png)

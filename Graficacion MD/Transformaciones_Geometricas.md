@@ -103,3 +103,7 @@ cv.waitKey(0)
 
 cv.destroyAllWindows()
 ~~~
+![Antes de](Imagenes/antesdetrans.png)
+![Rotación](Imagenes/rotadaraw.png)
+![Escalada](Imagenes/escaladaraw.png)
+![Trasladada](Imagenes/trasladadaraw.png)

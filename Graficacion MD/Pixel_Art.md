@@ -37,4 +37,4 @@ cv.waitKey(0)
 
 cv.destroyAllWindows()
 ~~~
-![PixelArt](PixelArt.png)
+![PixelArt](Imagenes/PixelArt.png)

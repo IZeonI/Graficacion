@@ -57,7 +57,7 @@ for t in np.arange(0,10*theta_max,theta_increment):
         y = center_y+int((r*math.sin(t)))   
         cv.circle(img2,(x,y),1,(0,0,255),-1)
 ~~~
-![Ecuacion2](ecuacion2.png)
+![Ecuacion2](Imagenes/ecuacion2.png)
 
 ## Ecuación 3: Intento de una espiral
 ~~~
@@ -66,7 +66,7 @@ for t in np.arange(0,40*theta_max,theta_increment):
         y = center_y+ int((1+r)*math.sin(t)) - int(b*(math.sin((1+(1/r))*t))) 
         cv.circle(img3,(x,y),1,(0,0,255),-1)
 ~~~
-![Ecuacion3](ecuacion3.png)
+![Ecuacion3](Imagenes/ecuacion3.png)
 
 ## Ecuación 4: Flor de 5 pétalos	
 ~~~
@@ -75,7 +75,7 @@ for t in np.arange(0,10*theta_max,theta_increment):
         y = center_y+ int(100*math.sin(t)) - int(50*math.sin(4*t)) 
         cv.circle(img4,(x,y),1,(0,0,255),-1)
 ~~~
-![Ecuacion4](ecuacion4.png)
+![Ecuacion4](Imagenes/ecuacion4.png)
 
 ## Ecuación 5: Epicicloide
 ~~~
@@ -84,7 +84,7 @@ for t in np.arange(0,40*theta_max,theta_increment):
         y = center_y+ int( (r1-r2)*math.sin(t)+r2*math.sin(t*(1-(r1/r2))) ) 
         cv.circle(img5,(x,y),1,(0,0,255),-1)
 ~~~
-![Ecuacion5](ecuacion5.png)
+![Ecuacion5](Imagenes/ecuacion5.png)
 
 ## Ecuación 6: Cardioide
 ~~~
@@ -93,7 +93,7 @@ for t in np.arange(0,40*theta_max,theta_increment):
         y = center_y+ int( 100*(math.cos(t) - math.cos(2*t)) ) 
         cv.circle(img6,(x,y),1,(0,0,255),-1)
 ~~~
-![Ecuacion6](ecuacion6.png)
+![Ecuacion6](Imagenes/ecuacion6.png)
 
 ## Ecuación 7: Elipse
 ~~~
@@ -102,7 +102,7 @@ for t in np.arange(0,20*theta_max,theta_increment):
         y = center_y+ int( 150*(math.sin(45*t)) )
         cv.circle(img7,(x,y),1,(0,0,255),-1)
 ~~~
-![Ecuacion7](ecuacion7.png)
+![Ecuacion7](Imagenes/ecuacion7.png)
 
 ## Ecuación 8: Trocoide
 ~~~
@@ -111,7 +111,7 @@ for t in np.arange(0,20*theta_max,theta_increment):
         y = center_y+ int( 15 - 30*(math.sin(t)) )
         cv.circle(img8,(x,y),1,(0,0,255),-1)
 ~~~
-![Ecuacion8](ecuacion8.png)
+![Ecuacion8](Imagenes/ecuacion8.png)
 
 ## Ecuación 9: Curva Plana
 ~~~
@@ -120,7 +120,7 @@ for t in np.arange(0,30*theta_max,theta_increment):
         y =int ( center_y + 150* math.sin(2*t) )
         cv.circle(img9,(x,y),1,(0,0,255),-1)
 ~~~
-![Ecuacion9](ecuacion9.png)
+![Ecuacion9](Imagenes/ecuacion9.png)
 
 ## Ecuación 10: Parabola
 ~~~        
@@ -129,7 +129,7 @@ for t in np.arange(-25,25,theta_increment):
         y =int (500 + -1*(t*t) )
         cv.circle(img10,(x,y),1,(0,0,255),-1) 
 ~~~
-![Ecuacion10](ecuacion10.png)
+![Ecuacion10](Imagenes/ecuacion10.png)
                 
     
 ## Mostramos las ventanas con las graficas    

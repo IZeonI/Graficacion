@@ -51,3 +51,4 @@ cv.waitKey(0)
 
 cv.destroyAllWindows()
 ~~~
+![Primitivas](Imagenes/Primitivas.png)
